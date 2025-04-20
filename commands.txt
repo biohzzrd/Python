@@ -1,0 +1,8 @@
+Commands List:
+
+/shutdown
+/execute
+/spotify
+/wakeup
+/contents (path)
+/read (path)
