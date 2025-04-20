@@ -15,7 +15,7 @@ mac_address = ':'.join(['{:02x}'.format((uuid.getnode() >> elements) & 0xff)
     for elements in range(0, 8*6, 8)][::-1])
 
 
-bot = telebot.TeleBot('7329710494:AAGPZpU5vWxC-ipCmfNfxJX_q82Hih-omBw')
+bot = telebot.TeleBot()
 
 def send_magic_packet(mac):
     mac_bytes = bytes.fromhex(mac.replace(':', '').replace('-', ''))
